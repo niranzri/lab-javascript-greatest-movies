@@ -103,7 +103,7 @@ function turnHoursToMinutes(moviesArray) {
         }
         const updatedMovie = { ...currentMovie, duration: totalMinutes }; 
         return updatedMovie;
-        //The spred operator (`...`) creates a shallow copy of 'currentMovie' and modifies the 'duration' property of the copied object. 
+        //The spread operator (`...`) creates a shallow copy of 'currentMovie' and modifies the 'duration' property of the copied object. 
     });
     return formattedArray;
 }
